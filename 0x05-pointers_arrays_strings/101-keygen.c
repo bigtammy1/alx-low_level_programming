@@ -10,7 +10,6 @@
  */
 
 int main(void)
-
 {
 	char c;
 	int x;
