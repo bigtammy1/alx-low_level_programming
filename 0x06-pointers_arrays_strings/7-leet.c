@@ -10,7 +10,6 @@ char *leet(char *s)
 {
 	int a[11] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 	int b[11] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
-
 	int i, j;
 
 	for (j = 0; s[j] != '\0'; j++)
@@ -21,6 +20,5 @@ char *leet(char *s)
 				s[j] = b[i];
 		}
 	}
-
 	return (s);
 }
